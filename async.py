@@ -11,7 +11,7 @@ CHUCK_SIZE = 10
 
 DB_SERVER = 'localhost'
 DB_USER = 'srolnik'
-DB_PASSWORD = 'klubkik1970'
+DB_PASSWORD = ''
 DB_NAME = 'suppliers'
 DB_PORT = 5432
 PG_DSN = f'postgresql+asyncpg://{DB_USER}:{DB_PASSWORD}@{DB_SERVER}:{DB_PORT}/{DB_NAME}'
