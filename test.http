@@ -1,0 +1,13 @@
+### get all the people resources
+GET https://swapi.dev/api/people/
+Content-Type: application/json
+
+
+### get a specific people resource
+GET https://swapi.dev/api/people/17/
+Content-Type: application/json
+
+
+### view the JSON schema for this resource
+GET https://swapi.dev/api/people/schema/
+Content-Type: application/json
